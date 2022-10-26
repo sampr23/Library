@@ -1,0 +1,15 @@
+C:\Users\Samuel\Desktop\c# tuto\bin\Debug\net6.0\c# tuto.exe
+C:\Users\Samuel\Desktop\c# tuto\bin\Debug\net6.0\c# tuto.deps.json
+C:\Users\Samuel\Desktop\c# tuto\bin\Debug\net6.0\c# tuto.runtimeconfig.json
+C:\Users\Samuel\Desktop\c# tuto\bin\Debug\net6.0\c# tuto.dll
+C:\Users\Samuel\Desktop\c# tuto\bin\Debug\net6.0\c# tuto.pdb
+C:\Users\Samuel\Desktop\c# tuto\obj\Debug\net6.0\c# tuto.csproj.AssemblyReference.cache
+C:\Users\Samuel\Desktop\c# tuto\obj\Debug\net6.0\c# tuto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samuel\Desktop\c# tuto\obj\Debug\net6.0\c# tuto.AssemblyInfoInputs.cache
+C:\Users\Samuel\Desktop\c# tuto\obj\Debug\net6.0\c# tuto.AssemblyInfo.cs
+C:\Users\Samuel\Desktop\c# tuto\obj\Debug\net6.0\c# tuto.csproj.CoreCompileInputs.cache
+C:\Users\Samuel\Desktop\c# tuto\obj\Debug\net6.0\c# tuto.dll
+C:\Users\Samuel\Desktop\c# tuto\obj\Debug\net6.0\refint\c# tuto.dll
+C:\Users\Samuel\Desktop\c# tuto\obj\Debug\net6.0\c# tuto.pdb
+C:\Users\Samuel\Desktop\c# tuto\obj\Debug\net6.0\c# tuto.genruntimeconfig.cache
+C:\Users\Samuel\Desktop\c# tuto\obj\Debug\net6.0\ref\c# tuto.dll
