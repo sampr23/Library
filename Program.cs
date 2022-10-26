@@ -7,9 +7,13 @@ using System.ComponentModel;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
-
 namespace library
 {
+    public class DataObject
+    {
+        public string Name { get; set; }
+    }
+    
     class Program
     {
         private const string URL = "https://sub.domain.com/objects.json";
