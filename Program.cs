@@ -11,7 +11,7 @@ namespace library
 {
     public class DataObject
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
     }
     
     class Program
