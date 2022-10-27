@@ -50,7 +50,7 @@ namespace library
         public static string getBookInfoAPI()
         {
             string html = string.Empty;
-            string url = @"https://www.googleapis.com/books/v1/volumes?q=montel&key=AIzaSyBkycVArmKU5L2cP7fylMIdaSXUZmN45yM";
+            string url = @"https://www.googleapis.com/books/v1/volumes?q=montel&key=" + APIKeys.GoogleBookAPI;
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.AutomaticDecompression = DecompressionMethods.GZip;
@@ -61,15 +61,15 @@ namespace library
                 html = reader.ReadToEnd();
             }
 
-            using JsonDocument doc = JsonDocument.Parse(html);
-            JsonElement root = doc.RootElement;
-            Console.WriteLine(root);
+            // using JsonDocument doc = JsonDocument.Parse(html);
+            // JsonElement root = doc.RootElement;
+            // Console.WriteLine(root);
 
-            var u1 = root[0];
-            var u2 = root[1];
-            Console.WriteLine(u1);
+            // var u1 = root[0];
+            // var u2 = root[1];
+            // Console.WriteLine(u1);
             // Console.WriteLine(u2);
-
+            Console.WriteLine(html);
             return html;
         }
     }

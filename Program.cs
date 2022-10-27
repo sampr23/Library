@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.ComponentModel;
-using System.Net;
-using System.Net.Http;
-using System.Net.Http.Headers;
+
 
 namespace library
 {    
@@ -15,7 +9,7 @@ namespace library
         static void Main(string[] args)
         {
             List<Book> booksList = Book.getLibraryBook();
-            // string book = Book.getBookInfoAPI();
+            string book = Book.getBookInfoAPI();
             showBookCollection(booksList);
             searchOption(booksList);
         }
