@@ -60,15 +60,6 @@ namespace library
             {
                 html = reader.ReadToEnd();
             }
-
-            // using JsonDocument doc = JsonDocument.Parse(html);
-            // JsonElement root = doc.RootElement;
-            // Console.WriteLine(root);
-
-            // var u1 = root[0];
-            // var u2 = root[1];
-            // Console.WriteLine(u1);
-            // Console.WriteLine(u2);
             Console.WriteLine(html);
             return html;
         }
