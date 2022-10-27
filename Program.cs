@@ -27,7 +27,6 @@ namespace library
             
             if(seeEveryBook == 'y')
             {
-
                 foreach (var book in booksList)
                 {
                     string[] actualBook = book.getBookInfo(book);
@@ -47,6 +46,7 @@ namespace library
             {
                 seachType = Console.ReadKey().KeyChar;
             }
+
             if(seachType == '1')
                 searchByID(booksList);
             else if(seachType == '2')
@@ -57,8 +57,6 @@ namespace library
                 searchByPageNumber(booksList);
             else if(seachType == '5')
                 searchByType(booksList);
-        
-    
         }
 
         //Search in the booksList with the desired ID
