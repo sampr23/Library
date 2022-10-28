@@ -44,7 +44,7 @@ namespace library
         public static string getBookInfoAPI()
         {
             string html = string.Empty;
-            string url = @"https://www.googleapis.com/books/v1/volumes?q=montel&key=" + APIKeys.GoogleBookAPI;
+            string url = @"https://www.googleapis.com/books/v1/volumes?q=human&key=" + APIKeys.GoogleBookAPI;
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.AutomaticDecompression = DecompressionMethods.GZip;
@@ -54,6 +54,8 @@ namespace library
             {
                 html = reader.ReadToEnd();
             }
+
+            JObject o = JObject.Parse(json);
 
             return html;
         }

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
 
-
 namespace library
 {    
     class Program
@@ -9,11 +8,10 @@ namespace library
         static void Main(string[] args)
         {
             List<Book> booksList = Book.getLibraryBook();
-            string book = Book.getBookInfoAPI();
+            // string book = Book.getBookInfoAPI();
             showBookCollection(booksList);
             searchOption(booksList);
         }
-
 
         //This function will write the booklist on screen and ask the user if he want to see them
         static void showBookCollection(List<Book> booksList)
